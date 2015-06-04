@@ -3,7 +3,10 @@ require 'octokit'
 module LanguagesHelper
 
   def get_repos user
-    Octokit.repos(user)
+    client = Octokit::Client.new \
+      :client_id => ENV["CLIENT_ID"],
+      :client_secret => ENV["CLIENT_SECRET"]
+    client.repos(user)
   end
 
   def get_languages user
