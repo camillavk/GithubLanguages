@@ -9,4 +9,8 @@ class GithubLanguage < Sinatra::Base
     erb :index
   end
 
+  get '/html' do
+    erb :html
+  end
+
 end

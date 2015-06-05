@@ -1,0 +1,77 @@
+/* Layout */
+
+body {
+  padding: 10 0 0 0;
+  background-color: #F5F5F5;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 10 10 10 10;
+}
+
+section {
+  padding: 10 0 10 0;
+  border-top: thin solid #DEDEDE;
+  border-bottom: thin solid #DEDEDE;
+}
+
+article {
+  display: inline-block;
+}
+
+div {
+  display: inline-block;
+}
+
+.caption_text p {
+  display: inline;
+}
+
+/* Fonts and Text */
+
+h1, p {
+  margin: 0 0 0 0;
+}
+
+.handle {
+  color: #8A8A8A;
+}
+
+.left {
+  float: right;
+  height: 1.2em;
+  font-weight: lighter;
+  font-size: 0.9em;
+  color: #8A8A8A;
+}
+
+.caption {
+  width: 40em;
+  vertical-align: top;
+  padding: 10 0 0 10;
+}
+
+/* Image */
+
+img {
+  max-width: 6em;
+}
+
+/* Form */
+
+input[type=text] {
+  padding:0.3em;
+  border:0.125em solid #CCC;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+
+input[type=submit] {
+  padding: 0.3em 0.9em;
+  background:#CCC;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+}

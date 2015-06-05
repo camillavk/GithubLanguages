@@ -1,21 +1,12 @@
-
-<DOCTYPE! HTML>
-<html>
-<head>
-  <title>Github Languages</title>
-</head>
-<body>
-  <h1>Github Languages</h1>
-  <main>
-    <form action='/' method='post'>
-      <input type='text' name='username' placeholder='Github Username'/>
-      <input type='submit' value='OK'/>
-    </form>
-    <section id='results'>
-      <% if @user %>
-        <%= @user %>'s favourite language is: <%= favourite_language @user %>
-      <% end %>
-    </section>
-  </main>
-</body>
-</html>
+<h1>Github Languages</h1>
+<main>
+  <form action='/' method='post'>
+    <input type='text' name='username' placeholder='Github Username'/>
+    <input type='submit' value='OK'/>
+  </form>
+  <section id='results'>
+    <% if @user %>
+      <%= @user %>'s favourite language is: <%= favourite_language @user %>
+    <% end %>
+  </section>
+</main>
